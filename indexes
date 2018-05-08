@@ -1,0 +1,2 @@
+CREATE INDEX `type` ON `refs`(`type`) USING GSI
+CREATE INDEX `reftype` ON `refs`(`type`,`reftype`) USING GSI
